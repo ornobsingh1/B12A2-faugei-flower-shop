@@ -37,26 +37,46 @@
     </style>
   </head>
   <body>
-    <header class="w-10/12 mx-auto mt-2">
+    <header>
       <!-- Navbar Section -->
-      <nav class="flex justify-between items-center gap-4">
+      <nav class="w-11/12 mx-auto mt-2 flex justify-between items-center gap-4">
         <div>
           <img class="w-28" src="assets/logo.png" alt="" />
         </div>
         <div class="flex justify-center items-center gap-8">
-          <ul class="hidden lg:flex gap-8 text-lg">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About us </a></li>
+          <ul class="hidden lg:flex gap-8 text-md">
+            <li><a href="#" class="font-semibold">Home</a></li>
+            <li><a href="#" class="text-secondary">Shop</a></li>
+            <li><a href="#" class="text-secondary">About us</a></li>
           </ul>
 
-          <a href="#" class="text-lg"
+          <a href="#" class="text-md"
             ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
           >
         </div>
       </nav>
 
-      
+      <!-- Bannar Section -->
+      <section
+        class="md:w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-center md:items-end gap-8 md:gap-0 md:mt-28"
+      >
+        <div class="p-4 md:w-1/2">
+          <h1 class="font-notoSerif text-4xl md:text-5xl font-bold mb-3">
+            ALWAYS <span class="text-primary">FRESH</span>
+          </h1>
+          <h1 class="font-notoSerif text-4xl md:text-5xl font-bold">
+            <span class="text-primary">FLOWERS</span>
+          </h1>
+          <p class="font-Inter text-secondary mt-5">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div>
+          <img class="w-full" src="assets/hero-flower.png" alt="" />
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
